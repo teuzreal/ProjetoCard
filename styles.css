@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 250px;
+    background-color: #dddddd;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.elementos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pessoa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    background-image: url('img/foto.jpg');
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    border-radius: 50%;
+    border:2px solid #000;
+}
+
+.pessoa h2 {
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+
+.pessoa p {
+    margin-top: 3px;
+    font-size: 10px;
+}
+
+.social {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+
+.botoes i {
+    background-color: #ececec;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.botoes i:hover {
+    background-color: #1c1c1c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botoes a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+.botoes a:hover {
+    color: #555;
+}
+  
+
+.contato {
+    margin-top: 10px;
+    width: 80%;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.secao {
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px ;
+}
+
+.secao:hover {
+    background-color: #1c1c1c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.secao a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+.secao a:hover {
+    color: #555;
+}
+
+.texto p {
+    font-size: 8px;
+    margin: 1px;
+    margin-left: 10px;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.icone i {
+    font-size: 11px;
+}
